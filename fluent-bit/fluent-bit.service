@@ -1,0 +1,12 @@
+[Unit]
+Description=Fluent Bit Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/fluent-bit/bin/fluent-bit -c /etc/fluent-bit/fluent-bit.conf
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

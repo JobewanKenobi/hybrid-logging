@@ -1,15 +1,16 @@
 # Logs
+logs/*
 *.log
 
-# OS files
+# System files
 .DS_Store
+Thumbs.db
 
-# SSH Keys (just in case)
-*.pem
-*.key
-
-# Editor swap files
+# Temporary files
+*.tmp
 *.swp
 
-# Systemd journal logs (if you dump them)
-*.journal
+# SSH and credentials
+*.pem
+*.key
+.ssh/

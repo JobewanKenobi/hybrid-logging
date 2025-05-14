@@ -21,3 +21,6 @@ It was deployed on a Linux EC2 instance acting as a VPN and Active Directory gat
 - Amazon Linux 2
 
 ---
+## Fluent Bit Setup
+
+For detailed setup instructions, see [Fluent Bit Setup Documentation](./fluentbit-setup.md).

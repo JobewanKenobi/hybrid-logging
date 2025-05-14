@@ -1,0 +1,15 @@
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# SSH Keys (just in case)
+*.pem
+*.key
+
+# Editor swap files
+*.swp
+
+# Systemd journal logs (if you dump them)
+*.journal
